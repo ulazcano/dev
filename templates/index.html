@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  </head>
+
+  <body>
+     <h1>Nombre dell {{ message }}  </h1>
+    <form method="POST" action = "/send_data">
+      <div class = "form-group">
+        <input type="text" name = "pay">
+      </div>
+      <input class="btn btn-primary" type="submit" value="Atrápalo ya!">
+    </form>
+
+    <form method="POST" action = "/send_data">
+      <div class = "form-group">
+        <input type="radio" name = "mat">
+
+      </div>
+      
+      <input class="btn btn-primary" type="submit" value="Atrápalo ya!">
+    </form>
+
+  </body>
+</html>
